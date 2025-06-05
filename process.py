@@ -62,12 +62,3 @@ def getpair(case):
 def cutbreaks(content):
     return content.replace('\n', '')
 
-
-"""
-content = cutbreaks(readfile('File 1'))
-content = delheader(content)
-wordlist = getcases(content)
-pair = getpair(wordlist[0])
-print(pair)
-"""
-
